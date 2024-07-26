@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" parallel="methods"
+          name="D:/April2024/Selenium/Selenium_Practices/SeleniumChallenges/src/test/java/com/seleniumautomationtesting/SeleniumChallenges/DemoQA/Challenge3_SmallModal.java">
+        <classes>
+            <class name="com.seleniumautomationtesting.SeleniumChallenges.DemoQA.Challenge3_SmallModal">
+                <methods>
+                    <include name="test"/>
+                    <include name="testChrome"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
